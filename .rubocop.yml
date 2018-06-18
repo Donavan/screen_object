@@ -1,0 +1,8 @@
+AllCops:
+  TargetRubyVersion: 2.4
+  Include:
+    - Gemfile
+    - Rakefile
+    - screen_object.gemspec
+Metrics/LineLength:
+  Enabled: false

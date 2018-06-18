@@ -1,0 +1,5 @@
+PreCommit:
+  RuboCop:
+    enabled: true
+    problem_on_unmodified_line: warn
+    command: ['bundle', 'exec', 'rubocop'] # Invoke within Bundler context
